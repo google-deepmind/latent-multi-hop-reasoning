@@ -1,0 +1,10 @@
+torch
+transformers
+git+https://github.com/davidbau/baukit
+pandas
+numpy
+tqdm
+unidecode
+vllm
+fancy-einsum
+accelerate
