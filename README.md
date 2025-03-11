@@ -27,13 +27,15 @@ The datasets are under the `datasets` directory.
 - Introduced in [Do Large Language Models Latently Perform Multi-Hop Reasoning?](https://arxiv.org/abs/2402.16837)
 - Contains 45,595 pairs of one-hop and two-hop factual prompts of 52 fact composition types with balanced distribution, designed to probe the internal mechanism of latent multi-hop reasoning
 - `datasets/TwoHopFact.csv` (91MB)
+- TwoHopFact is also available in huggingface datasets as [soheeyang/TwoHopFact](https://huggingface.co/datasets/soheeyang/TwoHopFact).
 
 ### SOCRATES (ShOrtCut-fRee lATent rEaSoning)
 
 - Introduced in [Do Large Language Models Perform Latent Multi-Hop Reasoning without Exploiting Shortcuts?](https://arxiv.org/abs/2411.16679)
 - Contains 7,232 pairs of one-hop and two-hop factual prompts of 17 fact composition types, carefully created to evaluate latent multi-hop reasoning ability of LLMs with accuracy-based metrics while minimizing the risk of shortcuts
-- `datasets/SOCRATES.csv` (14MB): A cleaned-up version of the dataset which does not contain grammatical errors.
+- `datasets/SOCRATES_v1.csv` (14MB): A cleaned-up version of the dataset which does not contain grammatical errors.
 - `datasets/SOCRATES_v0.csv` (14MB): Used for the experiments in the paper which contains a few grammatical errors.
+- SOCRATES v1 is also available in huggingface as [soheeyang/SOCRATES](https://huggingface.co/datasets/soheeyang/SOCRATES).
 
 ## Code Usage
 
