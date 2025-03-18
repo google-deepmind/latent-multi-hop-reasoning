@@ -15,7 +15,7 @@ conda activate reasoning
 pip install -r requirements.txt
 
 # Set HuggingFace token environment variable (required for accessing certain models)
-export HF_TOKEN_PATH="your_token_here"
+export HF_TOKEN="your_token_here"
 ```
 
 ## Datasets
