@@ -50,7 +50,7 @@ python inspect_latent_reasoning.py \
     --rq1_batch_size 256 \
     --rq2_batch_size 8 \
     --completion_batch_size 64 \
-    --hf_token $HF_TOKEN_PATH \
+    --hf_token $HF_TOKEN \
     --run_rq1 --run_rq2 --run_appositive --run_cot --run_completion
 ```
 
@@ -64,7 +64,7 @@ python evaluate_latent_reasoning.py \
     --input_csv_path datasets/SOCRATES.csv \
     --tensor_parallel_size 2 \
     --batch_size 256 \
-    --hf_token $HF_TOKEN_PATH
+    --hf_token $HF_TOKEN
 ```
 
 **Patchscopes Analysis**
@@ -76,7 +76,7 @@ python run_patchscopes.py \
     --batch_size 64 \
     --source_layer_idxs 1,2 \
     --target_layer_idxs 30,31 \
-    --hf_token $HF_TOKEN_PATH \
+    --hf_token $HF_TOKEN \
     --run_evaluation --run_patchscopes_evaluation
 ```
 
